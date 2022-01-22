@@ -226,7 +226,7 @@ p {
 
 @media (min-width: 1200px) {
     .hero {
-        margin-top: 6.75rem;
+        margin-top: 6.5rem;
     }
 }
 
@@ -419,8 +419,10 @@ p {
     margin-top: 1.5rem;
 }
 
-.built__title-span {
-    display: block;
+@media (min-width: 768px) {
+    .built__title-span {
+        display: block;
+    } 
 }
 
 @media (min-width: 768px) {
@@ -472,7 +474,7 @@ p {
         max-width: 1110px;
         display: grid;
         grid-template-columns: 350px 350px 193px;
-        align-items: center;
+        align-items: flex-start;
         justify-content: space-between;
     }
 }
@@ -517,5 +519,6 @@ p {
 @media (min-width: 1200px) {
     .experience__btn {
         margin-top: 0;
+        align-self: center;
     }
 }
