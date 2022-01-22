@@ -366,7 +366,7 @@ p {
 }
 
 .step--two {
-    background-color: #ffffff;
+    background-color: var(--lightest);
 }
 
 @media (min-width: 1200px) {
